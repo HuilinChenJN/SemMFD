@@ -48,8 +48,8 @@ Some important arguments:
 ## Dataset
 Please download the  [Amazon Review Data](https://nijianmo.github.io/amazon/index.html) as the datasets: Clothing, ToysGames, and Sports.
 
-||#Interactions|#Users|#Items|#label|Visual|Textual|
-|:-|:-|:-|:-|:-|:-|:-|
+|#Interactions|#Users|#Items|#label|Visual|Textual|
+|:-|:-|:-|:-|:-|:-|
 |Clothing|18,209|17,318|26|2,048|1024|
 |ToysGames|18,748|11,672|19|2048|1024|
 |Sports|21,400|36,224|18|2,048|1024|
