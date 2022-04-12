@@ -2,9 +2,7 @@
 This is our Pytorch implementation for the paper
 
 ## Introduction
-In this work,  In this paper, in order to yield use-
-ful multimodal information, we employ the knowledge distillation technique to distill valuable infor-
-mation in modality features from teacher model to student, and the teacher model captures the information in
+In this work,  In this paper, in order to yield useful multimodal information, we employ the knowledge distillation technique to distill valuable information in modality features from teacher model to student, and the teacher model captures the information in
 the features considering both the semantic information from labels and the complementary information from multiple modalities.
 
 ## Environment Requirement
