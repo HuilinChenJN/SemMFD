@@ -292,7 +292,7 @@ class Net(torch.nn.Module):
         score = torch.sum(user_score*item_score, dim=1).view(-1, 2)
         bpr_loss = -torch.mean(torch.log(torch.sigmoid(torch.matmul(score, self.weight))))
 
-        extra_feature_loss = teacher_loss + 0.2 * fusion_loss + (0.1 * feature_loss + 0.9 * bpr_loss)
+        extra_feature_loss = 1 * teacher_loss + 0.2 * fusion_loss + (0.1 * feature_loss + 0.9 * bpr_loss)
 
         reg_embedding_loss = (self.id_gcn.id_embedding[user_tensor]**2 + self.id_gcn.id_embedding[item_tensor]**2).mean() 
         reg_content_loss = torch.zeros(1).cuda() 
