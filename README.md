@@ -50,9 +50,9 @@ Please download the  [Amazon Review Data](https://nijianmo.github.io/amazon/inde
 
 |#Interactions|#Users|#Items|#label|Visual|Textual|
 |:-|:-|:-|:-|:-|:-|
-|Clothing|18,209|17,318|26|2,048|1024|
-|ToysGames|18,748|11,672|19|2048|1024|
-|Sports|21,400|36,224|18|2,048|1024|
+|Clothing|18,209|17,318|26|4096|1024|
+|ToysGames|18,748|11,672|19|4096|1024|
+|Sports|21,400|36,224|18|4096|1024|
 
 -`train.npy`
    Train file. Each line is a user with her/his positive interactions with items: (userID and micro-video ID)  
